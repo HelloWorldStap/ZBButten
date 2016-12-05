@@ -19,6 +19,7 @@
     ZBButten *butten = [[ZBButten alloc]initWithFrame:CGRectMake(100, 100, 100, 100)];
     butten.Timer = 3;
     butten.backgroundColor = [UIColor redColor];
+    [butten setbuttenfrontTitle:@"倒计时" backtitle:@"s"];
     [self.view addSubview:butten];
     [butten addTarget:self action:@selector(btnclic) forControlEvents:UIControlEventTouchUpInside];
     // Do any additional setup after loading the view, typically from a nib.
